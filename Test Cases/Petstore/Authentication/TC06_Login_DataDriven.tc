@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Data-driven login covering both valid and invalid credential combinations from the LoginData data file.</description>
+   <name>TC06_Login_DataDriven</name>
+   <tag>positive,negative,ddt</tag>
+   <comment></comment>
+   <testCaseGuid>e6700992-3132-457c-bccf-023f28e3b27e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description>Template profil default - SALIN menjadi default.glbl lalu isi nilai sebenarnya. Jangan commit file berisi kredensial asli.</description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>JPetStore catalog entry URL</description>
+      <initValue>'https://petstore.octoperf.com/actions/Catalog.action'</initValue>
+      <name>baseUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>JPetStore sign-in form URL</description>
+      <initValue>'https://petstore.octoperf.com/actions/Account.action?signonForm='</initValue>
+      <name>signInUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>JPetStore order/checkout URL</description>
+      <initValue>'https://petstore.octoperf.com/actions/Order.action?newOrderForm='</initValue>
+      <name>orderUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>valid account username</description>
+      <initValue>'YOUR_VALID_USERNAME'</initValue>
+      <name>validUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>valid account password</description>
+      <initValue>'YOUR_VALID_PASSWORD'</initValue>
+      <name>validPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>invalid account username</description>
+      <initValue>'YOUR_INVALID_USERNAME'</initValue>
+      <name>invalidUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>invalid account password</description>
+      <initValue>'YOUR_INVALID_PASSWORD'</initValue>
+      <name>invalidPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>target category id</description>
+      <initValue>'FISH'</initValue>
+      <name>categoryId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>target product id</description>
+      <initValue>'FI-SW-01'</initValue>
+      <name>productId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>target item id</description>
+      <initValue>'EST-1'</initValue>
+      <name>itemId</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Attempt to open the checkout order form without signing in and verify the sign-on-required message is displayed.</description>
+   <name>TC05_Checkout_Without_Login</name>
+   <tag>negative</tag>
+   <comment></comment>
+   <testCaseGuid>f25f7f72-1173-4dc0-9a0c-25a68127f9bd</testCaseGuid>
+</TestCaseEntity>

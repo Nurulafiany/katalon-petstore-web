@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Browse the FISH category, open product FI-SW-01, add item EST-1 to the cart and verify it appears in the cart.</description>
+   <name>TC04_Add_Product_To_Cart</name>
+   <tag>positive</tag>
+   <comment></comment>
+   <testCaseGuid>bb36f0b9-f162-4d05-bf58-a170a375a9cf</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,59 @@
+# =============================================================================
+# JANGAN upload password, token, API key, atau secret ke repository ini.
+# Semua file yang berisi kredensial / token wajib di-ignore di bawah.
+# Gunakan file *.example sebagai template dan isi nilainya secara lokal.
+# =============================================================================
+
+# ----------------------------- Katalon artifacts -----------------------------
+.gradle
+bin
+Reports
+Libs
+output
+!output/.gitkeep
+build
+.classpath
+.project
+.cache
+
+# --------------------------- Kredensial & secret -----------------------------
+# Token / API key Katalon (TestOps, Kobiton, TestCloud, Azure, qTest, dll)
+console.properties
+
+# Profil Global Variables -> menyimpan username & password
+Profiles/*.glbl
+!Profiles/*.glbl.example
+
+# Data-driven test data -> menyimpan kredensial login
+Data Files/*.xlsx
+Data Files/*.xls
+Data Files/*.csv
+!Data Files/*.example.csv
+
+# Pengaturan integrasi (dapat menyimpan token)
+settings/**/com.kms.katalon.integration.*.properties
+settings/**/com.katalon.*.plugin.properties
+
+# File environment & secret umum
+.env
+.env.*
+*.env
+*.secret
+*.token
+*.pwd
+secrets.*
+*secret*
+*token*
+*password*
+*passwd*
+*credential*
+*apikey*
+*api_key*
+*service-account*
+*service_account*
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
